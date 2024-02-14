@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="keywords" content="networks, networking,servers, cybersecurity, security,computers,internet,IT,maintenance">
+    <title> CyBest </title>
+    <link rel="stylesheet" href="cybest.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+   <a href="cybest.html" style="background-color: transparent;"><img src="cybest2.png" style="display:block; margin-left: auto; margin-right: auto; alt="CyBest Logo" height="30%" width="30%"   > </a>                                                                                                                  
+                
+</head>
+    
+<body bgcolor="#061415">
+  
+
+                                                                                                                                      
+  <nav>
+    
+    
+
+    
+   <ul class="nav_links" style="text-align: center;">
+    <li><a href="CYBEST.html">Homepage</a></li>                    
+      <li><a href="AboutCybest.html">About Us</a></li>
+        <li><a href="What.html">What Do We Do</a></li>
+                                    
+            <li><a href=mailto:cybest.co@gmail.com?subject="subject text">Contact Us</a></li>
+                                    
+                    </nav>
+                                           
+        
+      <br>                            
+  <div class="slideshow-container">
+
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="IMG2.jpg" style="width:100%">
+    <div class="text">1</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="IMG1.jpg" style="width:100%">
+    <div class="text">2</div>
+  </div>
+
+
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="IMG4.jpg" style="width:100%">
+    <div class="text">3</div>
+  </div>                     
+                     
+ <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="IMG5.jpg" style="width:100%">
+    <div class="text">4</div>
+  </div>
+       
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="IMG6.jpg" style="width:100%">
+    <div class="text">5</div>
+  </div>
+        
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="IMG7.jpg" style="width:100%">
+    <div class="text">6</div>
+  </div>
+                     
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+                                               
+</div>                       
+                                                   
+<script>
+   let slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}                                          
+ </script>                                         
+                                                   
+<br>                                                 
+
+<div class="containerr" >
+<div class="box" >
+  <h2 style="text-align: center; color: rgb(51, 43, 43); ">Networks</h2>
+  <p style="color: black;" class="text2">We setup and configure your Network(s).<br><br><a href="what.html#netwrks">More Info</a></p>
+  
+</div>
+<div class="box">
+  <h2 style="text-align: center; color: rgb(51, 43, 43);">Servers</h2>
+  <p style="color: black;"  class="text2"  >We setup, configure & maintain servers.<br><br><a href="what.html#servers">More Info</a></p>
+</div>
+<div class="box">
+  <h2 style="text-align: center; color: rgb(51, 43, 43);">Cybersecurity</h2>
+  <p style="color: black;" class="text2"  >We protect you from cyber attacks.<br><br><a href="what.html#security">More Info</a></p>
+</div>
+</div>
+
+
+
+<br>
+
+    <div class="text2">
+    <a href="#">Scroll Up</a>
+</div>
+<br><br>
+
+<footer style="background-color: black;">
+  <div class="footer-col">
+  	 			
+  	 			<div class="social-links" >
+            
+            
+            
+            
+            <a href="https://www.facebook.com/profile.php?id=100088376425441" style="text-align: center; background-color:black;"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://instagram.com/cybest.lb/" style="background-color:black"><i class="fab fa-instagram"></i></a>
+  	 				<a href=mailto:cybest.co@gmail.com?subject="subject text" style="background-color:black"><i class="fab fa-google"></i></a>
+            <p style="text-align: center; color: white;">@Copyright  2022-2023</p>
+  	 			</div>
+</footer>
+
+</body>
+</html>
